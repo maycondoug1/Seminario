@@ -163,3 +163,34 @@ footer{
 footer h1 :hover{
     font-size: 5rem;
 }
+.foto{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+ul div{
+    height: 30vh;
+    width: 20vh;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+div img{
+    border-radius: 100%;
+    min-width: 90%;
+    width: 20vh;
+    margin: auto;
+}
+.func{
+    text-align: center;
+    min-height: 55vh;
+    height: auto;
+    width: 100%;
+}
+.func h3{
+    margin: 20px;
+}
