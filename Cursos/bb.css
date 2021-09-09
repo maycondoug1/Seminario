@@ -10,7 +10,7 @@ body{
     background-size:auto;
     color: rgb(0, 0, 0);
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     margin: auto;
 }
 header{
@@ -60,12 +60,20 @@ a{
     font-size: 17px;
 }
 section{
-    width: 70vw;
-    height: 92vh;
-    margin: auto;
+    width: 100%;
+    height: auto;
     text-align: center;
 }
 section h1{
-    position: relative;
-    top: 40vh;
+    margin-top: 50px;
+}
+.video{
+    margin: 50px auto;
+    width: 50vw;
+    height: 28vw;
+    background-color: black;
+}
+iframe {
+    width: 100%;
+    height: 100%;
 }
