@@ -9,7 +9,7 @@ body{
     color: rgb(0, 0, 0);
     background-repeat: no-repeat;
     width: 100vw;
-    height: 180vw;
+    height: 100%;
 }
 header{
     display: flex;
@@ -59,7 +59,7 @@ a{
 }
 section{
     width: 100%;
-    height: 100%;
+    height: 169vw;
     text-align: center;
 }
 section h1{
